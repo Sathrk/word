@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Word Pronunciation with Sound</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>English Word Pronunciation with Sound</h1>
+        <p>Your guide to mastering essential English vocabulary with Gujarati translations and audio.</p>
+    </header>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search for a word (e.g., 'Assign')...">
+        <button onclick="clearSearch()">Clear Search</button>
+    </div>
+
+    <div class="main-content-wrapper">
+        
+        <nav id="sidebar">
+            <h2>Word Sets</h2>
+            <ul id="setList">
+                <li class="set-item active" data-set-id="all" onclick="filterBySet('all', this)">All Words (105)</li>
+                </ul>
+        </nav>
+
+        <main id="wordContainer">
+            </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 English Word Pronunciation. All Rights Reserved.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
