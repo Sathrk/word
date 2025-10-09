@@ -98,4 +98,12 @@ const wordData = [
     { id: 118, word: "Efficient", gujaratiMeaning: "કાર્યક્ષમ", example: "She is an efficient worker.", exampleGujarati: "તે કાર્યક્ષમ કામદાર છે.", set: 24, gujaratiPronunciation: "ઇફિશન્ટ" },
     { id: 119, word: "Deadline", gujaratiMeaning: "સમયમર્યાદા", example: "The report must be completed before the deadline.", exampleGujarati: "રિપોર્ટ સમયમર્યાદા પહેલાં પૂર્ણ કરવો જોઈએ.", set: 24, gujaratiPronunciation: "ડેડલાઇન" },
     { id: 120, word: "Coordinate", gujaratiMeaning: "સંકલન કરવું", example: "He will coordinate the event.", exampleGujarati: "તે કાર્યક્રમનું સંકલન કરશે.", set: 24, gujaratiPronunciation: "કોર્ડિનેટ" }
+
+    // Set 25 (Added on 09-10-2025)
+    { id: 121, word: "Appraise", gujaratiMeaning: "મૂલ્યાંકન કરવું", example: "The Company will appraise employee performance annually.", exampleGujarati: "કંપની દર વર્ષે કર્મચારીઓની કામગીરીનું મૂલ્યાંકન કરશે.", set: 25, gujaratiPronunciation: "એપ્રેઝ" },
+    { id: 122, word: "Audit", gujaratiMeaning: "ઓડિટ કરવું", example: "The finance team will audit the accounts next week.", exampleGujarati: "ફાઇનાન્સ ટીમ આવતા અઠવાડિયે ખાતાઓનું ઓડિટ કરશે.", set: 25, gujaratiPronunciation: "ઓડિટ" },
+    { id: 123, word: "Forecast", gujaratiMeaning: "આગાહી કરવી", example: "The manager forecasted next month’s sales trends.", exampleGujarati: "મેનેજરે આવતા મહિને વેચાણની પ્રવૃત્તિની આગાહી કરી.", set: 25, gujaratiPronunciation: "ફોરકાસ્ટ" },
+    { id: 124, word: "Formulate", gujaratiMeaning: "તૈયાર કરવું / રચવું", example: "We will formulate a plan to increase productivity.", exampleGujarati: "અમે ઉત્પાદન વધારવા માટે યોજના તૈયાર કરીશું.", set: 25, gujaratiPronunciation: "ફોર્મ્યુલેટ" },
+    { id: 125, word: "Benchmark", gujaratiMeaning: "માપદંડ / તુલનાત્મક ધોરણ", example: "The company set a benchmark for quality standards.", exampleGujarati: "કંપનીએ ગુણવત્તા ધોરણ માટે માપદંડ સેટ કર્યો.", set: 25, gujaratiPronunciation: "બેન્ચમાર્ક" }
+
 ];
