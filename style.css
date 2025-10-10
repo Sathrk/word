@@ -1,0 +1,553 @@
+/* Import modern font for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* =================================================================
+   --- 1. GLOBAL STYLES & VARIABLES ---
+   ================================================================= */
+:root {
+    --primary-color: #1abc9c;      /* Teal */
+    --primary-dark: #16a085;       /* Darker Teal */
+    --secondary-color: #3498db;    /* Blue */
+    --secondary-dark: #2980b9;     /* Darker Blue */
+    --dark-bg: #2c3e50;            /* Dark Blue-Gray for Sidebar */
+    --light-bg: #f0f4f8;           /* Light Gray for Main Content */
+    --text-dark: #34495e;          /* Dark Text */
+    --text-light: #ecf0f1;         /* Light Text on Dark BG */
+    --border-color: #dfe6e9;       /* Subtle Border Color */
+    --white-color: #ffffff;
+    --correct-color: #2ecc71;      /* Green */
+    --incorrect-color: #e74c3c;    /* Red */
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* =================================================================
+   --- 2. SIDEBAR STYLING ---
+   ================================================================= */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, var(--dark-bg) 0%, #1a252f 100%);
+    color: var(--text-light);
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Prevent sidebar from shrinking */
+}
+
+.logo {
+    font-size: 1.7em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: var(--white-color);
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 14px 25px;
+    color: var(--text-light);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.sidebar nav ul li a:hover:not(.active) {
+    background-color: #34495e;
+    border-left-color: var(--secondary-color);
+}
+
+.sidebar nav ul li a.active {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    font-weight: 600;
+    border-left-color: var(--secondary-color);
+}
+
+.set-navigation-title {
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bdc3c7;
+    border-top: 1px solid #34495e;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.set-navigation-list {
+    overflow-y: auto; /* Enable scrolling if list is long */
+}
+
+.set-navigation-list a {
+    display: block;
+    padding: 10px 25px 10px 30px;
+    color: var(--text-light);
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.set-navigation-list a:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background-color: #7f8c8d;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.set-navigation-list a:hover, .set-navigation-list a.active {
+    background-color: #34495e;
+    color: var(--white-color);
+}
+.set-navigation-list a:hover:before, .set-navigation-list a.active:before {
+    background-color: var(--primary-color);
+    transform: translateY(-50%) scale(1.5);
+}
+
+/* Custom Scrollbar for Sidebar */
+.set-navigation-list::-webkit-scrollbar {
+    width: 6px;
+}
+.set-navigation-list::-webkit-scrollbar-track {
+    background: #1a252f;
+}
+.set-navigation-list::-webkit-scrollbar-thumb {
+    background: #4a6fa5;
+    border-radius: 3px;
+}
+.set-navigation-list::-webkit-scrollbar-thumb:hover {
+    background: #5a7fbb;
+}
+
+
+/* =================================================================
+   --- 3. MAIN CONTENT STYLING ---
+   ================================================================= */
+.content {
+    flex-grow: 1;
+    padding: 40px;
+    overflow-y: auto; /* Allow content to scroll independently */
+}
+
+#main-content h2, .options-box h3, .test-container h2 {
+    color: var(--dark-bg);
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+/* =================================================================
+   --- 4. WORD SET & WORD ITEM STYLING (NEW) ---
+   ================================================================= */
+.word-set {
+    margin-bottom: 40px;
+}
+
+.word-set-header {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.word-item {
+    display: flex;
+    align-items: center;
+    background: var(--white-color);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.word-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+}
+
+.word-number {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-right: 20px;
+}
+
+.word-details {
+    flex-grow: 1;
+}
+
+.english-word {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--secondary-dark);
+    display: flex;
+    align-items: center;
+}
+
+.gujarati-meaning {
+    font-size: 1.1em;
+    color: var(--text-dark);
+    margin-top: 4px;
+}
+
+.sound-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 15px;
+    color: #7f8c8d;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.sound-btn:hover {
+    transform: scale(1.2);
+    color: var(--secondary-color);
+}
+
+/* =================================================================
+   --- 5. TEST PREPARATION / OPTIONS STYLING ---
+   ================================================================= */
+.options-box {
+    background: var(--white-color);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.set-selection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.set-checkbox-item {
+    background-color: var(--light-bg);
+    border: 1px solid var(--border-color);
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.set-checkbox-item:hover {
+    background-color: #eaf5fc;
+    border-color: var(--secondary-color);
+}
+
+.set-checkbox-item input[type="checkbox"] {
+    margin-right: 12px;
+    accent-color: var(--primary-color);
+    width: 18px;
+    height: 18px;
+}
+
+.set-checkbox-item label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.start-btn, .next-btn {
+    padding: 12px 30px;
+    color: var(--white-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.start-btn {
+    background-color: var(--primary-color);
+}
+
+.start-btn:hover:not(:disabled) {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(22, 160, 133, 0.4);
+}
+
+.start-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* =================================================================
+   --- 6. QUIZ QUESTION STYLING ---
+   ================================================================= */
+.test-container {
+    background: var(--white-color);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+.test-container h3 {
+    color: var(--text-dark);
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    background: var(--light-bg);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.question-word-area {
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.question-word {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--secondary-dark);
+    display: block;
+    margin-bottom: 15px;
+}
+
+.sound-btn-lg {
+    background: var(--white-color);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s;
+    color: var(--secondary-color);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.sound-btn-lg:hover {
+    transform: scale(1.05);
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border-color: var(--secondary-color);
+}
+
+.example-hint {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-top: 20px;
+    font-style: italic;
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.option-btn {
+    padding: 18px;
+    background-color: var(--white-color);
+    color: var(--text-dark);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.option-btn:hover:not(:disabled) {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.option-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.option-btn.correct {
+    background-color: var(--correct-color);
+    border-color: var(--correct-color);
+    color: white;
+    transform: scale(1.02);
+}
+
+.option-btn.incorrect {
+    background-color: var(--incorrect-color);
+    border-color: var(--incorrect-color);
+    color: white;
+}
+
+.feedback-message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    background-color: var(--light-bg);
+    border: 1px solid var(--border-color);
+}
+
+/* =================================================================
+   --- 7. TEST RESULTS STYLING ---
+   ================================================================= */
+.test-results {
+    background: var(--white-color);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.test-results h2 {
+    color: var(--primary-dark);
+    border: none;
+}
+
+.test-results .score-summary {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.test-results .percentage {
+    font-size: 2.5em;
+    color: var(--secondary-dark);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.test-results .message {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.next-btn {
+    background-color: var(--secondary-color);
+    margin: 5px;
+}
+
+.next-btn:hover {
+    background-color: var(--secondary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4);
+}
+
+
+/* =================================================================
+   --- 8. UTILITIES & RESPONSIVE DESIGN ---
+   ================================================================= */
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 220px;
+    }
+    .options-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: auto;
+    }
+    .logo {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+    .sidebar nav {
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .sidebar nav ul {
+        display: flex;
+    }
+    .sidebar nav ul li a {
+        border-left: none;
+        border-bottom: 4px solid transparent;
+        padding: 10px 15px;
+    }
+    .sidebar nav ul li a:hover:not(.active), .sidebar nav ul li a.active {
+        border-left-color: transparent;
+        border-bottom-color: var(--secondary-color);
+    }
+    .set-navigation-title, .set-navigation-list {
+        display: none; /* Hide individual sets on mobile for cleaner nav */
+    }
+    .content {
+        padding: 20px;
+    }
+    .set-selection-grid {
+        grid-template-columns: 1fr;
+    }
+    .question-word {
+        font-size: 2.2em; /* Smaller for mobile */
+    }
+    .option-btn {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
