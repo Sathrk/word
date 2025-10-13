@@ -75,73 +75,73 @@ const rawWordData = [
     { id: 58, set: 'Set 12', word: 'Conduct', pronunciation_guj: 'આયોજન / સંચાલન કરવું', example: 'The school conducted an exam last week.', example_gujarati: 'શાળાએ ગયા અઠવાડિયે પરીક્ષા યોજી.', pron: '' },
     { id: 59, set: 'Set 12', word: 'Connect', pronunciation_guj: 'જોડાવું', example: 'Please connect the laptop to the projector..', example_gujarati: 'કૃપા કરીને લેપટોપને પ્રોજેક્ટર સાથે જોડો.', pron: '' },
     { id: 60, set: 'Set 12', word: 'Design', pronunciation_guj: 'ડીઝાઇન કરવી / દોરવું', example: 'Teacher designed a square on board', example_gujarati: 'શિક્ષકે બોર્ડ પર ચોરસ દોર્યુ.', pron: '' },
-    // Set 13 (Words 61-65)
+    // Set 13 ()
     { id: 61, set: 'Set 13', word: 'Divide', pronunciation_guj: 'વહેંચવું', example: 'The teacher divided the class into groups.', example_gujarati: 'શિક્ષકે ક્લાસને જૂથોમાં વહેંચ્યા', pron: 'ડિવાઇડ' },
     { id: 62, set: 'Set 13', word: 'Focus', pronunciation_guj: 'ધ્યાન કેન્દ્રિત કરવું', example: 'Students should focus on studies.', example_gujarati: 'વિદ્યાર્થીઓએ અભ્યાસ પર ધ્યાન કેન્દ્રિત કરવું જોઈએ.', pron: 'ફોકસ' },
     { id: 63, set: 'Set 13', word: 'Learn', pronunciation_guj: 'શીખવું', example: 'We must learn English', example_gujarati: 'આપણે અંગ્રેજી શીખવું જ જોઈએ.', pron: 'લર્ન' },
     { id: 64, set: 'Set 13', word: 'Expand', pronunciation_guj: 'વિસ્તૃત કરવું', example: 'The company wants to expand its business.', example_gujarati: 'કંપની તેનો વ્યવસાય વિસ્તૃત કરવા માગે છે.', pron: 'એક્સપેન્ડ' },
     { id: 65, set: 'Set 13', word: 'Lead', pronunciation_guj: 'નેતૃત્વ કરવું', example: 'She will lead the new team.', example_gujarati: 'તેણી નવી ટીમનું નેતૃત્વ કરશે.', pron: 'લીડ' },
-    // Set 14 (Words 66-70) - Greeting Words
+    // Set 14 (24-09-2025) - Greeting Words
     { id: 66, set: 'Set 14', word: 'Good Morning', pronunciation_guj: 'શુભ સવાર, સુપ્રભાત', example: 'Good Morning, Principal sir', example_gujarati: 'આચાર્યશ્રી સુપ્રભાત', pron: 'ગુડ મોર્નિંગ' },
     { id: 67, set: 'Set 14', word: 'Good Day', pronunciation_guj: 'શુભ દિવસ', example: 'Good day, madam.', example_gujarati: 'શુભ દિવસ મેડમ', pron: 'ગુડ ડે' },
     { id: 68, set: 'Set 14', word: 'Good Afternoon', pronunciation_guj: 'શુભ સાંજ! / બપોર', example: 'Good afternoon! I hope your day’s been good.”', example_gujarati: 'શુભ સાંજ / બપોર આશા છે તમારો દિવસ સારો ગયો.', pron: 'ગુડ આફટરનુન' },
     { id: 69, set: 'Set 14', word: 'Good Night', pronunciation_guj: 'શુભ રાત્રી', example: 'Good night, see you tomorrow.', example_gujarati: 'શુભ રાત્રી, કાલે મળીએ.', pron: 'ગુડ નાઇટ' },
     { id: 70, set: 'Set 14', word: 'Welcome', pronunciation_guj: 'સ્વાગત કરવુ', example: 'Welcome to our office..', example_gujarati: 'અમારા ઓફિસમાં આપનું સ્વાગત છે.', pron: 'વેલ કમ' },
-    // Set 15 (Words 71-75)
+    // Set 15 (25-09-2025)
     { id: 71, set: 'Set 15', word: 'Divide', pronunciation_guj: 'વહેંચવું', example: 'The teacher divided the class into groups.', example_gujarati: 'શિક્ષકે ક્લાસને જૂથોમાં વહેંચ્યો.', pron: 'ડીવાઇડ' },
     { id: 72, set: 'Set 15', word: 'Gather', pronunciation_guj: 'ભેગું કરવું', example: 'They gathered information from all sources.', example_gujarati: 'તેમણે બધા સ્ત્રોતોમાંથી માહિતી ભેગી કરી.', pron: 'ગેઘર' },
     { id: 73, set: 'Set 15', word: 'Ignore', pronunciation_guj: 'અવગણવું', example: 'We should not ignore small mistakes.', example_gujarati: 'અમારે નાની ભૂલો અવગણવી નહીં જોઈએ.', pron: 'ઇગ્નોર' },
     { id: 74, set: 'Set 15', word: 'Plan', pronunciation_guj: 'યોજના બનાવવી', example: 'They planned a trip for next month.', example_gujarati: 'તેમણે આગામી મહિને પ્રવાસની યોજના બનાવી.', pron: 'પ્લાન' },
     { id: 75, set: 'Set 15', word: 'Include', pronunciation_guj: 'સામેલ કરવું', example: 'The list includes all names.', example_gujarati: 'યાદીમાં બધા નામ સામેલ છે.', pron: 'ઇનક્લુડ' },
-    // Set 16 (Words 76-80)
+    // Set 16 (26-09-2025)
     { id: 76, set: 'Set 16', word: 'Obtain', pronunciation_guj: 'મેળવવું', example: 'You must obtain permission before entering.', example_gujarati: 'પ્રવેશ કરતા પહેલા તમારે પરવાનગી મેળવવી પડશે.', pron: 'ઓબટેઇન' },
     { id: 77, set: 'Set 16', word: 'Open', pronunciation_guj: 'ખોલવું', example: 'Please open the file carefully.', example_gujarati: 'કૃપા કરીને ફાઇલ ધ્યાનથી ખોલો.', pron: 'ઓપન' },
     { id: 78, set: 'Set 16', word: 'Close', pronunciation_guj: 'બંધ કરવું', example: 'Please close the door.', example_gujarati: 'કૃપા કરીને દરવાજો બંધ કરો', pron: 'ક્લોઝ' },
     { id: 79, set: 'Set 16', word: 'Involve', pronunciation_guj: 'સામેલ થવું', example: 'All employees are involved in the project.', example_gujarati: 'બધા કર્મચારીઓ પ્રોજેક્ટમાં સામેલ છે.', pron: 'ઇન્વોલ્વ' },
     { id: 80, set: 'Set 16', word: 'Perform', pronunciation_guj: 'પ્રદર્શન કરવું', example: 'The artist performed well on stage.', example_gujarati: 'કલાકારે મંચ પર સારું પ્રદર્શન કર્યું.', pron: 'પર્ફોર્મ' },
-    // Set 17 (Words 81-85)
+    // Set 17 (29-09-2025)
     { id: 81, set: 'Set 17', word: 'Agenda', pronunciation_guj: 'કાર્યક્રમ / ચર્ચાના મુદ્દા', example: 'what is the agenda of meeting ?', example_gujarati: 'મિટીંગના ચર્ચાના મુદ્દા શુ છે?', pron: 'એજન્ડા' },
     { id: 82, set: 'Set 17', word: 'Brief', pronunciation_guj: 'ટૂંકું વર્ણન', example: 'She gave a brief report on the progress.', example_gujarati: 'તેણીએ પ્રગતિ પર ટૂંકી રિપોર્ટ આપી.', pron: 'બ્રિફ' },
     { id: 83, set: 'Set 17', word: 'Draft', pronunciation_guj: 'ડ્રાફ્ટ / રૂપરેખા', example: 'He prepared a draft of the letter.', example_gujarati: 'તેણે પત્રનો ડ્રાફ્ટ તૈયાર કર્યો.', pron: 'ડ્રાફ્ટ' },
     { id: 84, set: 'Set 17', word: 'Circulate', pronunciation_guj: 'પ્રસાર કરવું / વહેંચવું', example: 'The notice was circulated to all staff.', example_gujarati: 'નોટિસ બધાં સ્ટાફમાં વહેંચાઈ હતી.', pron: 'સર્ક્યુલેટ' },
     { id: 85, set: 'Set 17', word: 'Share', pronunciation_guj: 'વહેંચવું / રજુ કરવું', example: 'Please share your ideas.', example_gujarati: 'કૃપા કરીને તમારા વિચારો રજુ કરો.', pron: 'શેર' },
-    // Set 18 (Words 86-90)
+    // Set 18 (30-09-2025)
     { id: 86, set: 'Set 18', word: 'Observe', pronunciation_guj: 'અવલોકન કરવું', example: 'Teachers observe the students during exams.', example_gujarati: 'શિક્ષકોએ પરીક્ષા દરમિયાન વિદ્યાર્થીઓનું અવલોકન કરે છે.', pron: 'ઓબસર્વ' },
     { id: 87, set: 'Set 18', word: 'Present', pronunciation_guj: 'રજૂ કરવું', example: 'He presented his project to the committee..', example_gujarati: 'તેણે કમિટીને પોતાનો પ્રોજેક્ટ રજૂ કર્યો.', pron: 'પ્રેઝન્ટ' },
     { id: 88, set: 'Set 18', word: 'Prioritize', pronunciation_guj: 'પ્રાથમિકતા આપવી', example: 'We must prioritize important tasks.', example_gujarati: 'આપણે મહત્વપૂર્ણ કાર્યોને પ્રાથમિકતા આપવી જોઈએ.', pron: 'પ્રાઓરીટીઝ' },
     { id: 89, set: 'Set 18', word: 'Propose', pronunciation_guj: 'પ્રસ્તાવ મૂકવો', example: 'She proposed a new idea.', example_gujarati: 'તેણીએ એક નવો વિચાર પ્રસ્તાવિત કર્યો.', pron: 'પ્રપોસ' },
     { id: 90, set: 'Set 18', word: 'Record', pronunciation_guj: 'રેકોર્ડ કરવો / નોંધવું', example: 'Please record the video of a dance.', example_gujarati: 'કૃપા કરીને નૃત્યનો વિડીઓ રેકોર્ડ કરો', pron: 'રેકોર્ડ' },
-    // Set 19 (Words 91-95)
+    // Set 19 (01-10-2025)
     { id: 91, set: 'Set 19', word: 'Control', pronunciation_guj: 'નિયંત્રણ રાખવું', example: 'The teacher controlled the noisy class..', example_gujarati: 'શિક્ષકે અવાજ કરતો ક્લાસને નિયંત્રિત કર્યો', pron: 'કન્ટ્રોલ' },
     { id: 92, set: 'Set 19', word: 'Courage', pronunciation_guj: 'હિંમત', example: 'It takes courage to say sorry.', example_gujarati: 'માફી માંગવા માટે હિંમત જોઈએ.', pron: 'કરેઝ' },
     { id: 93, set: 'Set 19', word: 'Engage', pronunciation_guj: 'જોડાવું / વ્યસ્ત રાખવું', example: 'The trainer engaged students in activities..', example_gujarati: 'ટ્રેનરે વિદ્યાર્થીઓને પ્રવૃત્તિઓમાં જોડ્યા.', pron: 'એન્ગેજ' },
     { id: 94, set: 'Set 19', word: 'Expect', pronunciation_guj: 'અપેક્ષા રાખવી', example: 'The teacher expects good results.', example_gujarati: 'શિક્ષક સારા પરિણામોની અપેક્ષા રાખે છે.', pron: 'એક્સપેક્ટ' },
     { id: 95, set: 'Set 19', word: 'Refer', pronunciation_guj: 'સંદર્ભ આપવો', example: 'Please refer to the attached file..', example_gujarati: 'કૃપા કરીને જોડેલી ફાઇલ જુઓ', pron: 'રીફર' },
-    // Set 20 (Words 96-100)
+    // Set 20 (03-10-2025)
     { id: 96, set: 'Set 20', word: 'Register', pronunciation_guj: 'નોંધણી કરવી', example: 'You must register for the event.', example_gujarati: 'તમારે કાર્યક્રમની નોંધણી કરવી પડશે.', pron: 'રજીસ્ટ્રર' },
     { id: 97, set: 'Set 20', word: 'Request', pronunciation_guj: 'વિનંતી કરવી', example: 'I request your support in this matter.', example_gujarati: 'હું આ બાબતમાં તમારો સહયોગ માગું છું.', pron: 'રીકવેસ્ટ' },
     { id: 98, set: 'Set 20', word: 'Schedule', pronunciation_guj: 'સમયપત્રક / કાર્યક્રમ', example: 'The school published the exam schedule..', example_gujarati: 'શાળાએ પરીક્ષાનું સમયપત્રક પ્રકાશિત કર્યું.', pron: 'શેડ્યૂલ' },
     { id: 99, set: 'Set 20', word: 'Measure', pronunciation_guj: 'માપવું', example: 'The engineer measured the length.', example_gujarati: 'એન્જિનિયરે લંબાઈ માપી.', pron: 'મેઝર' },
     { id: 100, set: 'Set 20', word: 'Increase', pronunciation_guj: 'વધારો કરવો', example: 'The company increased the salary.', example_gujarati: 'કંપનીએ પગારમાં વધારો ક', pron: 'ઇનક્રીઝ' },
-    // Set 21 (Words 101-105)
+    // Set 21 (04-10-2025)
     { id: 101, set: 'Set 21', word: 'Monitor', pronunciation_guj: 'દેખરેખ રાખવી', example: 'The principal will monitor the exam.', example_gujarati: 'પ્રિન્સિપાલ પરીક્ષાની દેખરેખ રાખશે..', pron: 'મોનિટર' },
     { id: 102, set: 'Set 21', word: 'Motivate', pronunciation_guj: 'પ્રોત્સાહિત કરવું', example: 'The coach motivated the players.', example_gujarati: 'કોચે ખેલાડીઓને પ્રોત્સાહિત કર્યા..', pron: 'મોટિવેટ' },
     { id: 103, set: 'Set 21', word: 'Outline', pronunciation_guj: 'રૂપરેખા આપવી', example: 'He gave an outline of the project.', example_gujarati: 'તેણે પ્રોજેક્ટની રૂપરેખા આપી..', pron: 'આઉટલાઇન' },
     { id: 104, set: 'Set 21', word: 'Prevent', pronunciation_guj: 'રોકવું', example: 'We must prevent accidents at work.', example_gujarati: 'અમારે કાર્યસ્થળ પર અકસ્માતો રોકવા જોઈએ..', pron: 'પ્રિવેન્ટ' },
     { id: 105, set: 'Set 21', word: 'Inspire', pronunciation_guj: 'પ્રેરણા આપવી', example: 'The teacher inspired students to work hard.', example_gujarati: 'શિક્ષકે વિદ્યાર્થીઓને મહેનત કરવાની પ્રેરણા આપી.', pron: 'ઇન્સ્પાયર' },
-    // Set 22 (Words 106-110)
+    // Set 22 (06-8-2025)
     { id: 106, set: 'Set 22', word: 'Maintain', pronunciation_guj: 'જાળવવું', example: 'We must maintain discipline in the office.', example_gujarati: 'અમારે ઓફિસમાં શિસ્ત જાળવવી જોઈએ.', pron: 'મેન્ટેન' },
     { id: 107, set: 'Set 22', word: 'Introduce', pronunciation_guj: 'પરિચય કરાવવો', example: 'He introduced the guest to the class.', example_gujarati: 'તેણે મહેમાનનો ક્લાસને પરિચય કરાવ્યો.', pron: 'ઈન્ટ્રોડ્યુસ' },
     { id: 108, set: 'Set 22', word: 'Nominate', pronunciation_guj: 'પસંદગી કરવી', example: 'He was nominated for the award.', example_gujarati: 'તેને એવોર્ડ માટે પસંદ કરવામાં આવ્યો.', pron: 'નોમિનેટ' },
     { id: 109, set: 'Set 22', word: 'Justify', pronunciation_guj: 'યોગ્ય ઠેરવવું', example: 'You must justify your decision.', example_gujarati: 'તમારે તમારો નિર્ણય યોગ્ય ઠેરવવો પડશે.', pron: 'જસ્ટિફાય' },
     { id: 110, set: 'Set 22', word: 'Notify', pronunciation_guj: 'સૂચિત કરવું', example: 'Please notify me in advance.', example_gujarati: 'કૃપા કરીને મને પહેલેથી સૂચિત કરો.', pron: 'નોટિફાય' },
-    // Set 23 (Words 111-115)
+    // Set 23 (07-10-2025)
     { id: 111, set: 'Set 23', word: 'Identify', pronunciation_guj: 'ઓળખવું', example: 'The teacher identified the problems.', example_gujarati: 'શિક્ષકે સમસ્યાઓને ઓળખી.', pron: 'આઈડેન્ટિફાય' },
     { id: 112, set: 'Set 23', word: 'Decrease', pronunciation_guj: 'ઘટાડવું, ઓછુ કરવુ', example: 'The temperature will decrease at night.', example_gujarati: 'રાત્રે તાપમાન ઘટશે.', pron: 'ડિક્રીઝ' },
     { id: 113, set: 'Set 23', word: 'Overcome', pronunciation_guj: 'પાર પામવું', example: 'We must overcome our weaknesses.', example_gujarati: 'અમારે અમારી કમજોરીઓ પર પાર પામવું જોઈએ.', pron: 'ઓવરકમ' },
     { id: 114, set: 'Set 23', word: 'Express', pronunciation_guj: 'વ્યક્ત કરવું', example: 'She expressed her opinion clearly.', example_gujarati: 'તેણે પોતાની વિચાર સ્પષ્ટ રીતે વ્યક્ત કરી.', pron: 'એક્સપ્રેસ' },
     { id: 115, set: 'Set 23', word: 'Facilitate', pronunciation_guj: 'સરળ બનાવવું / સુવિધા આપવી', example: 'The officer facilitated the process.', example_gujarati: 'અધિકારીએ પ્રક્રિયા સરળ બનાવી.', pron: 'ફેસિલિટેટ' },
-    // Set 24 (Words 116-120)
+    // Set 24 (08-10-2025)
     { id: 116, set: 'Set 24', word: 'Execute', pronunciation_guj: 'અમલમાં મૂકવું', example: 'The company will execute the plan next week.', example_gujarati: 'કંપની આગામી અઠવાડિયે યોજનાનો અમલ કરશે.', pron: 'એક્ઝિક્યુટ' },
     { id: 117, set: 'Set 24', word: 'Feedback', pronunciation_guj: 'પ્રતિસાદ', example: 'Please give feedback on the presentation.', example_gujarati: 'કૃપા કરીને પ્રેઝન્ટેશન પર પ્રતિસાદ આપો.', pron: 'ફીડબેક' },
     { id: 118, set: 'Set 24', word: 'Efficient', pronunciation_guj: 'કાર્યક્ષમ', example: 'She is an efficient worker.', example_gujarati: 'તે કાર્યક્ષમ કામદાર છે.', pron: 'ઇફિશન્ટ' },
