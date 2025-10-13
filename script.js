@@ -147,20 +147,19 @@ const rawWordData = [
     { id: 118, set: 'Set 24', word: 'Efficient', pronunciation_guj: 'કાર્યક્ષમ', example: 'She is an efficient worker.', example_gujarati: 'તે કાર્યક્ષમ કામદાર છે.', pron: 'ઇફિશન્ટ' },
     { id: 119, set: 'Set 24', word: 'Deadline', pronunciation_guj: 'સમયમર્યાદા', example: 'The report must be completed before the deadline.', example_gujarati: 'રિપોર્ટ સમયમર્યાદા પહેલાં પૂર્ણ કરવો જોઈએ.', pron: 'ડેડલાઇન' },
     { id: 120, set: 'Set 24', word: 'Coordinate', pronunciation_guj: 'સંકલન કરવું', example: 'He will coordinate the event.', example_gujarati: 'તે કાર્યક્રમનું સંકલન કરશે.', pron: 'કોર્ડિનેટ' },
-    // Set 25 (Words 121-125)
-    { id: 121, set: 'Set 25', word: 'Appraise', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'The manager will appraise the performance.', example_gujarati: 'મેનેજર પ્રદર્શનનું મૂલ્યાંકન કરશે.', pron: 'અપ્રેઇઝ' },
-    { id: 122, set: 'Set 25', word: 'Evaluate', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'The teachers evaluate the students.', example_gujarati: 'શિક્ષકો વિદ્યાર્થીઓનું મૂલ્યાંકન કરે છે.', pron: 'ઇવેલ્યુએટ' },
-    { id: 123, set: 'Set 25', word: 'Process', pronunciation_guj: 'પ્રક્રિયા કરવી', example: 'We will process the documents soon.', example_gujarati: 'અમે ટૂંક સમયમાં દસ્તાવેજો પર પ્રક્રિયા કરીશું.', pron: 'પ્રોસેસ' },
-    { id: 124, set: 'Set 25', word: 'Troubleshoot', pronunciation_guj: 'સમસ્યાનો ઉકેલ લાવવો', example: 'The engineer will troubleshoot the system error.', example_gujarati: 'ઇજનેર સિસ્ટમની ભૂલનો ઉકેલ લાવશે.', pron: 'ટ્રબલશૂટ' },
-    { id: 125, set: 'Set 25', word: 'Upgrade', pronunciation_guj: 'સુધારવું / અપગ્રેડ કરવું', example: 'We need to upgrade the software.', example_gujarati: 'અમારે સૉફ્ટવેર અપગ્રેડ કરવાની જરૂર છે.', pron: 'અપગ્રેડ' },
-    // Set 26 (10-10-2025)
+    // Set 25 (09-10-2025)
+    { id: 121, set: 'Set 25 (09-10-2025)', word: 'Appraise', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'The Company will appraise employee performance annually.', example_gujarati: 'કંપની દર વર્ષે કર્મચારીઓની કામગીરીનું મૂલ્યાંકન કરશે.', pron: 'એપ્રેઝ' },
+    { id: 122, set: 'Set 25 (09-10-2025)', word: 'Audit', pronunciation_guj: 'ઓડિટ કરવું', example: 'The finance team will audit the accounts next week.', example_gujarati: 'ફાઇનાન્સ ટીમ આવતા અઠવાડિયે ખાતાઓનું ઓડિટ કરશે.', pron: 'ઓડિટ' },
+    { id: 123, set: 'Set 25 (09-10-2025)', word: 'Forecast', pronunciation_guj: 'આગાહી કરવી', example: 'The manager forecasted next month’s sales trends.', example_gujarati: 'મેનેજરે આવતા મહિને વેચાણની પ્રવૃત્તિની આગાહી કરી.', pron: 'ફોરકાસ્ટ' },
+    { id: 124, set: 'Set 25 (09-10-2025)', word: 'Formulate', pronunciation_guj: 'તૈયાર કરવું / રચવું', example: 'We will formulate a plan to increase productivity.', example_gujarati: 'અમે ઉત્પાદન વધારવા માટે યોજના તૈયાર કરીશું.', pron: 'ફોર્મ્યુલેટ' },
+    { id: 125, set: 'Set 25 (09-10-2025)', word: 'Benchmark', pronunciation_guj: 'માપદંડ / તુલનાત્મક ધોરણ', example: 'The company set a benchmark for quality standards.', example_gujarati: 'કંપનીએ ગુણવત્તા ધોરણ માટે માપદંડ સેટ કર્યો.', pron: 'બેન્ચમાર્ક' },
+     // Set 26 (10-10-2025)
     { id: 126, set: 'Set 26 (10-10-2025)', word: 'Liaise', pronunciation_guj: 'સંકળાવા / સંબંધ રાખવો', example: 'She liaised with other departments for the project.', example_gujarati: 'તેણીએ પ્રોજેક્ટ માટે અન્ય વિભાગો સાથે સંબંધ રાખ્યો.', pron: 'લેઆઝ' },
     { id: 127, set: 'Set 26 (10-10-2025)', word: 'Streamline', pronunciation_guj: 'કાર્યક્ષમ બનાવવું / સુગમિત કરવું', example: 'The office streamlined the filing system for efficiency.', example_gujarati: 'ઓફિસે કાર્યક્ષમતા માટે ફાઇલિંગ સિસ્ટમને સુગમિત કર્યું.', pron: 'સ્ટ્રીમલાઇન' },
     { id: 128, set: 'Set 26 (10-10-2025)', word: 'Validate', pronunciation_guj: 'માન્ય કરવું', example: 'Please validate the data before submission.', example_gujarati: 'કૃપા કરીને સબમિશન પહેલાં ડેટાને માન્ય કરો.', pron: 'વેલિડેટ' },
     { id: 129, set: 'Set 26 (10-10-2025)', word: 'Reorganize', pronunciation_guj: 'પુનઃવ્યવસ્થા કરવી', example: 'The company reorganized its departments for efficiency.', example_gujarati: 'કંપનીએ કાર્યક્ષમતા માટે તેના વિભાગોની પુનઃવ્યવસ્થા કરી.', pron: 'રિ-ઓર્ગેનાઈઝ' },
     { id: 130, set: 'Set 26 (10-10-2025)', word: 'Consolidate', pronunciation_guj: 'મજબૂત બનાવવું / એકીકૃત કરવું', example: 'The manager consolidated reports from all teams.', example_gujarati: 'મેનેજરે તમામ ટીમોના રિપોર્ટને એકીકૃત કર્યું.', pron: 'કૉન્સોલિડેટ' },
-
-    // Set 27 (13-10-2025)
+     // Set 27 (13-10-2025)
     { id: 131, set: 'Set 27 (13-10-2025)', word: 'Integrate', pronunciation_guj: 'એકીકૃત કરવું', example: 'The software integrates all financial data.', example_gujarati: 'સોફ્ટવેર બધા નાણાકીય માહિતીને એકીકૃત કરે છે.', pron: 'ઈન્ટિગ્રેટ' },
     { id: 132, set: 'Set 27 (13-10-2025)', word: 'Initiate', pronunciation_guj: 'પ્રારંભ કરવું', example: 'The team initiated a new training program.', example_gujarati: 'ટીમે નવો તાલીમ કાર્યક્રમ પ્રારંભ કર્યો.', pron: 'ઇનિશિએટ' },
     { id: 133, set: 'Set 27 (13-10-2025)', word: 'Reassess', pronunciation_guj: 'ફરીથી મૂલ્યાંકન કરવું', example: 'We need to reassess our current strategy.', example_gujarati: 'અમારે અમારી હાલની વ્યૂહરચનાનું ફરીથી મૂલ્યાંકન કરવું જોઇએ.', pron: 'રિ-એસેસ' },
