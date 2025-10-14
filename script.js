@@ -165,6 +165,12 @@ const rawWordData = [
     { id: 133, set: 'Set 27 (13-10-2025)', word: 'Reassess', pronunciation_guj: 'ફરીથી મૂલ્યાંકન કરવું', example: 'We need to reassess our current strategy.', example_gujarati: 'અમારે અમારી હાલની વ્યૂહરચનાનું ફરીથી મૂલ્યાંકન કરવું જોઇએ.', pron: 'રિ-એસેસ' },
     { id: 134, set: 'Set 27 (13-10-2025)', word: 'Delegate', pronunciation_guj: 'કામ સોંપવું', example: 'Leaders delegate authority to capable employees.', example_gujarati: 'નેતાઓ ક્ષમતા ધરાવતા કર્મચારીઓને સત્તા સોંપે છે.', pron: 'ડેલીગેટ' },
     { id: 135, set: 'Set 27 (13-10-2025)', word: 'Collaborate', pronunciation_guj: 'સહયોગ કરવો', example: 'Teams collaborate to complete major projects.', example_gujarati: 'ટીમો મોટી યોજનાઓ પૂરી કરવા માટે સહયોગ કરે છે.', pron: 'કોલેબોરેટ' },
+    // Set 28 (14-10-2025)
+    { id: 136, set: 'Set 28 (14-10-2025)', word: 'Optimize', pronunciation_guj: 'વધુ કાર્યક્ષમ બનાવવું', example: 'We need to optimize the supply chain.', example_gujarati: 'અમારે સપ્લાય ચેઇનને વધુ કાર્યક્ષમ બનાવવું.', pron: 'ઑપ્ટિમાઇઝ' },
+    { id: 137, set: 'Set 28 (14-10-2025)', word: 'Revise', pronunciation_guj: 'સુધારવું / ફેરફાર કરવો', example: 'The report was revised before submission.', example_gujarati: 'રિપોર્ટ સબમિશન પહેલા સુધારાયું.', pron: 'રિવાઈઝ' },
+    { id: 138, set: 'Set 28 (14-10-2025)', word: 'Innovate', pronunciation_guj: 'નવીનતા લાવવી', example: 'The firm constantly innovates to stay competitive.', example_gujarati: 'કંપની સ્પર્ધાત્મક રહેવા માટે સતત નવીનતા લાવે છે.', pron: 'ઇનોવેટ' },
+    { id: 139, set: 'Set 28 (14-10-2025)', word: 'Assess', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'Managers assess staff performance annually.', example_gujarati: 'મેનેજર દર વર્ષે કર્મચારીઓની કામગીરીનું મૂલ્યાંકન કરે છે.', pron: 'એસેસ' },
+    { id: 140, set: 'Set 28 (14-10-2025)', word: 'Align', pronunciation_guj: 'સુસંગત કરવું', example: 'We must align our goals with the company vision.', example_gujarati: 'અમારે અમારા લક્ષ્યો કંપનીના દૃષ્ટિકોણ સાથે સુસંગત કરવા જોઈએ.', pron: 'એલાઇન' },
 
 ];
 
