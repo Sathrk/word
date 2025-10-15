@@ -171,12 +171,12 @@ const rawWordData = [
     { id: 138, set: 'Set 28 (14-10-2025)', word: 'Innovate', pronunciation_guj: 'નવીનતા લાવવી', example: 'The firm constantly innovates to stay competitive.', example_gujarati: 'કંપની સ્પર્ધાત્મક રહેવા માટે સતત નવીનતા લાવે છે.', pron: 'ઇનોવેટ' },
     { id: 139, set: 'Set 28 (14-10-2025)', word: 'Assess', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'Managers assess staff performance annually.', example_gujarati: 'મેનેજર દર વર્ષે કર્મચારીઓની કામગીરીનું મૂલ્યાંકન કરે છે.', pron: 'એસેસ' },
     { id: 140, set: 'Set 28 (14-10-2025)', word: 'Align', pronunciation_guj: 'સુસંગત કરવું', example: 'We must align our goals with the company vision.', example_gujarati: 'અમારે અમારા લક્ષ્યો કંપનીના દૃષ્ટિકોણ સાથે સુસંગત કરવા જોઈએ.', pron: 'એલાઇન' },
-    // Set 28 (15-10-2025)
-    { id: 141, set: 'Set 28 (15-10-2025)', word: 'Evaluate', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'Teachers evaluate students’ progress every month.', example_gujarati: 'શિક્ષક દર મહિને વિદ્યાર્થીઓની પ્રગતિનું મૂલ્યાંકન કરે છે.', pron: 'એવેલ્યુએટ' },
-    { id: 142, set: 'Set 28 (15-10-2025)', word: 'Allocate', pronunciation_guj: 'ફાળવવું / વહેંચવું', example: 'The manager allocated tasks to team members.', example_gujarati: 'મેનેજરે ટીમના સભ્યોને કામ ફાળવ્યું.', pron: 'એલોકેટ' },
-    { id: 143, set: 'Set 28 (15-10-2025)', word: 'Procure', pronunciation_guj: 'મેળવવું / પ્રાપ્ત કરવું', example: 'The office procured new laptops for staff.', example_gujarati: 'ઓફિસે સ્ટાફ માટે નવા લેપટોપ મેળવ્યા.', pron: 'પ્રોક્યુર' },
-    { id: 144, set: 'Set 28 (15-10-2025)', word: 'Negotiate', pronunciation_guj: 'વાતચીત કરીને સમાધાન કરવું', example: 'The team negotiated the contract terms with suppliers.', example_gujarati: 'ટીમે સપ્લાયર્સ સાથે કરારની શરતો પર વાતચીત કરી.', pron: 'નેગોશિએટ' },
-    { id: 145, set: 'Set 28 (15-10-2025)', word: 'Document', pronunciation_guj: 'દસ્તાવેજ તૈયાર કરવો', example: 'Please document all procedures clearly.', example_gujarati: 'કૃપા કરીને બધા પ્રક્રીયાઓ સ્પષ્ટ રીતે દસ્તાવેજ કરો.', pron: 'ડોક્યુમેન્ટ' },
+    // Set 29 (15-10-2025)
+    { id: 141, set: 'Set 29 (15-10-2025)', word: 'Evaluate', pronunciation_guj: 'મૂલ્યાંકન કરવું', example: 'Teachers evaluate students’ progress every month.', example_gujarati: 'શિક્ષક દર મહિને વિદ્યાર્થીઓની પ્રગતિનું મૂલ્યાંકન કરે છે.', pron: 'એવેલ્યુએટ' },
+    { id: 142, set: 'Set 29 (15-10-2025)', word: 'Allocate', pronunciation_guj: 'ફાળવવું / વહેંચવું', example: 'The manager allocated tasks to team members.', example_gujarati: 'મેનેજરે ટીમના સભ્યોને કામ ફાળવ્યું.', pron: 'એલોકેટ' },
+    { id: 143, set: 'Set 29 (15-10-2025)', word: 'Procure', pronunciation_guj: 'મેળવવું / પ્રાપ્ત કરવું', example: 'The office procured new laptops for staff.', example_gujarati: 'ઓફિસે સ્ટાફ માટે નવા લેપટોપ મેળવ્યા.', pron: 'પ્રોક્યુર' },
+    { id: 144, set: 'Set 29 (15-10-2025)', word: 'Negotiate', pronunciation_guj: 'વાતચીત કરીને સમાધાન કરવું', example: 'The team negotiated the contract terms with suppliers.', example_gujarati: 'ટીમે સપ્લાયર્સ સાથે કરારની શરતો પર વાતચીત કરી.', pron: 'નેગોશિએટ' },
+    { id: 145, set: 'Set 29 (15-10-2025)', word: 'Document', pronunciation_guj: 'દસ્તાવેજ તૈયાર કરવો', example: 'Please document all procedures clearly.', example_gujarati: 'કૃપા કરીને બધા પ્રક્રીયાઓ સ્પષ્ટ રીતે દસ્તાવેજ કરો.', pron: 'ડોક્યુમેન્ટ' },
 
 ];
 
