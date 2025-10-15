@@ -182,7 +182,7 @@ const rawWordData = [
 
 
 // =================================================================
-// --- 2. GLOBAL ELEMENTS & INITIAL DATA PROCESSING ---
+// --- 2. GLOBAL ELEMENTS & INITIAL DATA PROCESSING --
 // =================================================================
 
 // DOM Elements
