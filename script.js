@@ -183,6 +183,12 @@ const rawWordData = [
     { id: 148, set: 'Set 30', word: 'Blueprint', pronunciation_guj: 'નકશો, રૂપરેખા', example: 'Follow the technical blueprint for installation.', example_gujarati: 'ઇન્સ્ટોલેશન માટે તકનીકી નકશાને અનુસરો.', pron: 'બ્લૂપ્રિન્ટ' },
     { id: 149, set: 'Set 30', word: 'Dimension', pronunciation_guj: 'પરિમાણ, માપ', example: 'Check all three dimensions (length, width, height).', example_gujarati: 'ત્રણેય પરિમાણો (લંબાઈ, પહોળાઈ, ઊંચાઈ) તપાસો.', pron: 'ડાયમેન્શન' },
     { id: 150, set: 'Set 30', word: 'Layout', pronunciation_guj: 'ગોઠવણ, યોજના', example: 'The machine shop layout is planned for efficiency.', example_gujarati: 'મશીન શોપની ગોઠવણ કાર્યક્ષમતા માટે આયોજન કરવામાં આવ્યું છે.', pron: 'લેઆઉટ' },
+     // --- New Set 31 (17-10-2025) ---
+    { id: 151, set: 'Set 31 (17-10-2025)', word: 'Compliance', pronunciation_guj: 'નિયમો અને નીતિઓનું પાલન', example: 'Compliance with safety rules is necessary.', example_gujarati: 'સુરક્ષા નિયમોનું પાલન જરૂરી છે.', pron: 'કોમ્પ્લાયન્સ' },
+    { id: 152, set: 'Set 31 (17-10-2025)', word: 'Insight', pronunciation_guj: 'ઊંડું સમજણ અથવા જ્ઞાન', example: 'Her insight helped solve the problem.', example_gujarati: 'તેની ઊંડી સમજણથી સમસ્યા ઉકેલી શકાઈ.', pron: 'ઇન્સાઇટ' },
+    { id: 153, set: 'Set 31 (17-10-2025)', word: 'Strategy', pronunciation_guj: 'યોજના કે રણનીતિ', example: 'We need a new strategy for marketing.', example_gujarati: 'માર્કેટિંગ માટે નવી યોજના જોઈએ.', pron: 'સ્ટ્રેટેજી' },
+    { id: 154, set: 'Set 31 (17-10-2025)', word: 'Model', pronunciation_guj: 'નમૂનો, પ્રતિરૂપ', example: 'A three-dimensional model helps visualize the part.', example_gujarati: 'ત્રિ-પરિમાણીય નમૂનો ભાગની કલ્પના કરવામાં મદદ કરે છે.', pron: 'મોડેલ' },
+    { id: 155, set: 'Set 31 (17-10-2025)', word: 'Cost', pronunciation_guj: 'ખર્ચ', example: 'Calculate the cost of production.', example_gujarati: 'ઉત્પાદનનો ખર્ચ ગણો.', pron: 'કોસ્ટ' },
 
 ];
 
