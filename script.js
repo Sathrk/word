@@ -177,6 +177,12 @@ const rawWordData = [
     { id: 143, set: 'Set 29 (15-10-2025)', word: 'Procure', pronunciation_guj: 'મેળવવું / પ્રાપ્ત કરવું', example: 'The office procured new laptops for staff.', example_gujarati: 'ઓફિસે સ્ટાફ માટે નવા લેપટોપ મેળવ્યા.', pron: 'પ્રોક્યુર' },
     { id: 144, set: 'Set 29 (15-10-2025)', word: 'Negotiate', pronunciation_guj: 'વાતચીત કરીને સમાધાન કરવું', example: 'The team negotiated the contract terms with suppliers.', example_gujarati: 'ટીમે સપ્લાયર્સ સાથે કરારની શરતો પર વાતચીત કરી.', pron: 'નેગોશિએટ' },
     { id: 145, set: 'Set 29 (15-10-2025)', word: 'Document', pronunciation_guj: 'દસ્તાવેજ તૈયાર કરવો', example: 'Please document all procedures clearly.', example_gujarati: 'કૃપા કરીને બધા પ્રક્રીયાઓ સ્પષ્ટ રીતે દસ્તાવેજ કરો.', pron: 'ડોક્યુમેન્ટ' },
+     // --- New Set 30 (16-10-2025) ---
+    { id: 146, set: 'Set 30', word: 'Track', pronunciation_guj: 'અનુસરીને નિરીક્ષણ કરવું', example: 'Managers track project milestones regularly.', example_gujarati: 'મેનેજર્સ નિયમિત રીતે પ્રોજેક્ટ માઇલસ્ટોન્સ અનુસરે છે.', pron: 'ટ્રૅક' },
+    { id: 147, set: 'Set 30', word: 'Consult', pronunciation_guj: 'સલાહ લેવી / પરામર્શ કરવો', example: 'Employees consult experts for guidance.', example_gujarati: 'કર્મચારીઓ માર્ગદર્શન માટે નિષ્ણાતોની સલાહ લે છે.', pron: 'કન્સલ્ટ' },
+    { id: 148, set: 'Set 30', word: 'Blueprint', pronunciation_guj: 'નકશો, રૂપરેખા', example: 'Follow the technical blueprint for installation.', example_gujarati: 'ઇન્સ્ટોલેશન માટે તકનીકી નકશાને અનુસરો.', pron: 'બ્લૂપ્રિન્ટ' },
+    { id: 149, set: 'Set 30', word: 'Dimension', pronunciation_guj: 'પરિમાણ, માપ', example: 'Check all three dimensions (length, width, height).', example_gujarati: 'ત્રણેય પરિમાણો (લંબાઈ, પહોળાઈ, ઊંચાઈ) તપાસો.', pron: 'ડાયમેન્શન' },
+    { id: 150, set: 'Set 30', word: 'Layout', pronunciation_guj: 'ગોઠવણ, યોજના', example: 'The machine shop layout is planned for efficiency.', example_gujarati: 'મશીન શોપની ગોઠવણ કાર્યક્ષમતા માટે આયોજન કરવામાં આવ્યું છે.', pron: 'લેઆઉટ' },
 
 ];
 
