@@ -189,7 +189,12 @@ const rawWordData = [
     { id: 153, set: 'Set 31 (17-10-2025)', word: 'Strategy', pronunciation_guj: 'યોજના કે રણનીતિ', example: 'We need a new strategy for marketing.', example_gujarati: 'માર્કેટિંગ માટે નવી યોજના જોઈએ.', pron: 'સ્ટ્રેટેજી' },
     { id: 154, set: 'Set 31 (17-10-2025)', word: 'Model', pronunciation_guj: 'નમૂનો, પ્રતિરૂપ', example: 'A three-dimensional model helps visualize the part.', example_gujarati: 'ત્રિ-પરિમાણીય નમૂનો ભાગની કલ્પના કરવામાં મદદ કરે છે.', pron: 'મોડેલ' },
     { id: 155, set: 'Set 31 (17-10-2025)', word: 'Cost', pronunciation_guj: 'ખર્ચ', example: 'Calculate the cost of production.', example_gujarati: 'ઉત્પાદનનો ખર્ચ ગણો.', pron: 'કોસ્ટ' },
-
+     // Set 31 (Words 151-155)
+    { id: 151, set: 'Set 31', word: 'Accident', pronunciation_guj: 'અકસ્માત', example: 'Be careful to avoid an accident.', example_gujarati: 'અકસ્માત ટાળવા માટે સાવચેત રહો.', pron: '' },
+    { id: 152, set: 'Set 31', word: 'Benefit', pronunciation_guj: 'લાભ', example: 'A healthy diet has many benefits.', example_gujarati: 'તંદુરસ્ત આહારના ઘણા ફાયદા છે.', pron: '' },
+    { id: 153, set: 'Set 31', word: 'Challenge', pronunciation_guj: 'પડકાર', example: 'She accepted the challenge of learning a new language.', example_gujarati: 'તેણે નવી ભાષા શીખવાનો પડકાર સ્વીકાર્યો.', pron: '' },
+    { id: 154, set: 'Set 31', word: 'Damage', pronunciation_guj: 'નુકસાન', example: 'The storm caused damage to the roof.', example_gujarati: 'તોફાને છતને નુકસાન પહોંચાડ્યું.', pron: '' },
+    { id: 155, set: 'Set 31', word: 'Environment', pronunciation_guj: 'પર્યાવરણ', example: 'We must protect the environment.', example_gujarati: 'આપણે પર્યાવરણનું રક્ષણ કરવું જોઈએ.', pron: '' },
 ];
 
 
