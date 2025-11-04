@@ -238,6 +238,12 @@ const rawWordData = [
     { id: 188, set: 'Set 38 (03-11-2025)', word: 'Enforce', pronunciation_guj: 'એનફોર્સ', example: 'The rules must be enforced strictly.', example_gujarati: 'નિયમોનો કડક અમલ કરવો જોઈએ.', pron: '' },
     { id: 189, set: 'Set 38 (03-11-2025)', word: 'Automatic', pronunciation_guj: 'ઓટોમેટિક', example: 'The robot works on an automatic cycle.', example_gujarati: 'રોબોટ સ્વયંસંચાલિત ચક્ર પર કામ કરે છે.', pron: '' },
     { id: 190, set: 'Set 38 (03-11-2025)', word: 'Repair', pronunciation_guj: 'રિપેર', example: 'The technician came to repair the machine.', example_gujarati: 'ટેકનિશિયન મશીન રિપેર કરવા આવ્યો.', pron: '' },
+      // --- Set 39 (04-11-2025) ---
+    { id: 191, set: 'Set 39 (04-11-2025)', word: 'Neglect', pronunciation_guj: 'નેગ્લેક્ટ', example: 'Don’t neglect your responsibilities.', example_gujarati: 'તમારી જવાબદારીઓ અવગણશો નહીં.', pron: '' },
+    { id: 192, set: 'Set 39 (04-11-2025)', word: 'Revoke', pronunciation_guj: 'રિવોક', example: 'The license was revoked.', example_gujarati: 'લાઈસન્સ રદ કરવામાં આવ્યું.', pron: '' },
+    { id: 193, set: 'Set 39 (04-11-2025)', word: 'Comply', pronunciation_guj: 'કમ્પ્લાય', example: 'You must comply with the rules.', example_gujarati: 'તમારે નિયમોનું પાલન કરવું પડશે.', pron: '' },
+    { id: 194, set: 'Set 39 (04-11-2025)', word: 'Analysis', pronunciation_guj: 'એનાલિસિસ', example: 'Perform a stress analysis on the beam.', example_gujarati: 'બીમ પર તણાવ વિશ્લેષણ કરો.', pron: '' },
+    { id: 195, set: 'Set 39 (04-11-2025)', word: 'Capacity', pronunciation_guj: 'કેપેસિટી', example: 'The battery has a high capacity.', example_gujarati: 'બેટરીની ક્ષમતા વધુ છે.', pron: '' },
 
 ];
 
@@ -749,3 +755,4 @@ function generateSetNavigation() {
         });
     });
 }
+
